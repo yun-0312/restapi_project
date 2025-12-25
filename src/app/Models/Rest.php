@@ -9,6 +9,11 @@ class Rest extends Model
 {
     use HasFactory;
 
+    // protected $fillable = [
+    //     'message',
+    //     'url',
+    // ];
+
     protected $guarded = array('id');
 
     public static $rules = array(
